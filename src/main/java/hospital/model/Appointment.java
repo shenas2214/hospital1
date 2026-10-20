@@ -12,7 +12,7 @@ public class Appointment {
     private final LocalTime time;
     private final AppointmentStatus status;
 
-    public Appointment(int id, int doctorId, int patientId, String patientName,
+    public Appointment(int id, int doctorIdd, int patientId, String patientName,
                        LocalDate date, LocalTime time, AppointmentStatus status) {
         this.id = id; this.doctorId = doctorId; this.patientId = patientId;
         this.patientName = patientName; this.date = date; this.time = time; this.status = status;
